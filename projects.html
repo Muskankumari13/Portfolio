@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Muskan Bai's AI projects – IDIP, Interview Shadow AI, Movie Recommendation, Pose Estimation, Air Quality Prediction, and more."
+    />
+    <title>Projects | Muskan Bai</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <span class="logo-text">MB</span>
+          <span class="logo-dot"></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="contact.html" class="nav-link btn-nav">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <h1>Projects</h1>
+      <p>Real-world AI systems I've built</p>
+    </div>
+
+    <main class="section">
+      <div class="container">
+        <div class="projects-grid">
+          <!-- IDIP -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <img
+                src="images/idip.png"
+                alt="IDIP – Intelligent Document Intelligence Platform"
+              />
+              <div class="proj-thumb-placeholder">&#128209;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">01 &mdash; NLP / LLM</div>
+              <h3 class="proj-title">
+                IDIP – Intelligent Document Intelligence Platform
+              </h3>
+              <p class="proj-desc">
+                An end-to-end RAG system that allows users to upload documents
+                and ask questions in natural language. Combines FAISS vector
+                search with Groq-powered LLMs for fast, accurate answers.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Reduced document query time by 70% using FAISS vector
+                search over traditional keyword search.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">LangChain</span>
+                <span class="proj-tech-tag">FAISS</span>
+                <span class="proj-tech-tag">Groq API</span>
+                <span class="proj-tech-tag">Sentence Transformers</span>
+                <span class="proj-tech-tag">Streamlit</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/idip"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+                <a
+                  href="#"
+                  class="proj-link proj-link-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9654; Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interview Shadow AI -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <div class="proj-thumb-placeholder">&#127908;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">02 &mdash; LLM / NLP</div>
+              <h3 class="proj-title">Interview Shadow AI</h3>
+              <p class="proj-desc">
+                An AI-powered mock interview coach that generates role-specific
+                questions, evaluates answers using LLMs, and provides structured
+                feedback to help candidates prepare for technical interviews.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Generates personalized feedback aligned with job
+                descriptions using prompt engineering.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">Groq API</span>
+                <span class="proj-tech-tag">LangChain</span>
+                <span class="proj-tech-tag">FastAPI</span>
+                <span class="proj-tech-tag">Streamlit</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/interview-shadow-ai"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Movie Recommendation -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <img src="images/movie.png" alt="Movie Recommendation System" />
+              <div class="proj-thumb-placeholder">&#127916;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">03 &mdash; Machine Learning</div>
+              <h3 class="proj-title">Movie Recommendation System</h3>
+              <p class="proj-desc">
+                A content-based and collaborative filtering recommendation
+                engine built with Python and Streamlit. Users get personalized
+                movie suggestions based on their watch history and preferences.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Achieved 85%+ recommendation accuracy using cosine
+                similarity on TF-IDF feature vectors.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">Scikit-learn</span>
+                <span class="proj-tech-tag">Pandas</span>
+                <span class="proj-tech-tag">TF-IDF</span>
+                <span class="proj-tech-tag">Streamlit</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/movie-recommendation"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+                <a
+                  href="#"
+                  class="proj-link proj-link-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9654; Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Human Pose Estimation -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <img src="images/pose.png" alt="Human Pose Estimation" />
+              <div class="proj-thumb-placeholder">&#128100;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">04 &mdash; Computer Vision</div>
+              <h3 class="proj-title">Human Pose Estimation</h3>
+              <p class="proj-desc">
+                A real-time pose estimation system using MediaPipe that detects
+                33 body keypoints from a webcam feed. Includes applications for
+                exercise tracking and posture correction.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Real-time detection at 30+ FPS with 33 landmark points
+                tracked simultaneously.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">MediaPipe</span>
+                <span class="proj-tech-tag">OpenCV</span>
+                <span class="proj-tech-tag">NumPy</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/pose-estimation"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Air Quality Prediction -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <img
+                src="images/airquality.png"
+                alt="Pakistan Air Quality Prediction"
+              />
+              <div class="proj-thumb-placeholder">&#127789;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">05 &mdash; Machine Learning</div>
+              <h3 class="proj-title">Pakistan Air Quality Prediction</h3>
+              <p class="proj-desc">
+                A machine learning model that predicts the Air Quality Index
+                (AQI) for Pakistani cities using historical pollution data.
+                Features an interactive Streamlit dashboard for visualization.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Achieved R² score of 0.91 using Random Forest Regressor
+                on multi-city AQI data.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">Scikit-learn</span>
+                <span class="proj-tech-tag">Pandas</span>
+                <span class="proj-tech-tag">Matplotlib</span>
+                <span class="proj-tech-tag">Streamlit</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/air-quality-pakistan"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+                <a
+                  href="#"
+                  class="proj-link proj-link-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9654; Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Handwritten Digit Recognition -->
+          <div class="proj-card reveal">
+            <div class="proj-thumb">
+              <div class="proj-thumb-placeholder">&#9999;</div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">06 &mdash; Deep Learning</div>
+              <h3 class="proj-title">Handwritten Digit Recognition</h3>
+              <p class="proj-desc">
+                A deep learning model trained on the MNIST dataset to classify
+                handwritten digits 0–9. Includes a live drawing canvas where
+                users can draw digits and get instant predictions.
+              </p>
+              <div class="proj-highlight">
+                &#10024; Achieved 99.1% test accuracy using a CNN architecture
+                with dropout regularization.
+              </div>
+              <div class="proj-tech">
+                <span class="proj-tech-tag">Python</span>
+                <span class="proj-tech-tag">TensorFlow</span>
+                <span class="proj-tech-tag">Keras</span>
+                <span class="proj-tech-tag">CNN</span>
+                <span class="proj-tech-tag">Streamlit</span>
+              </div>
+              <div class="proj-links">
+                <a
+                  href="https://github.com/yourusername/digit-recognition"
+                  class="proj-link proj-link-gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9733; GitHub
+                </a>
+                <a
+                  href="#"
+                  class="proj-link proj-link-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &#9654; Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">Muskan Bai</div>
+        <p class="footer-sub">
+          AI Engineer &middot; Building the Future with Intelligence
+        </p>
+        <nav class="footer-nav">
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="certificates.html">Certificates</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">
+          &copy; 2025 Muskan Bai &middot; Made with
+          <span class="heart">&#9829;</span> and Python
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
